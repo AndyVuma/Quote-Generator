@@ -1,0 +1,41 @@
+body {
+    background-color: #f8f9fa;
+  }
+
+  .container {
+    margin-top: 50px;
+  }
+
+  .btn-primary,
+  .btn-info {
+    margin-top: 20px;
+  }
+
+  #quote {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 50px;
+  }
+
+  .custom-btn {
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+
+  #copy-btn.custom-btn {
+    left: 20px;
+    right: auto;
+  }
+
+  #tweet-btn.custom-btn {
+    right: 20px;
+    left: auto;
+  }
+
+  .custom-btn:hover {
+    background-color: #138496;
+    border-color: #138496;
+  }
